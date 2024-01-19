@@ -64,8 +64,10 @@
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /*transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;*/
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     max-height: 100px; /* Ajoutez l'unité (par exemple, px) selon vos besoins */
+    width: 300px;
+    height: 200px;
 }
 
 .gallery img {
