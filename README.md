@@ -163,8 +163,8 @@
          overflow: hidden;
             display: -webkit-box;
             -webkit-box-orient: vertical;
-            -webkit-line-clamp: 2; /* Le nombre de lignes souhaité */
-            line-height: 2.5; /* Hauteur de ligne pour une meilleure présentation */
+            -webkit-line-clamp: 3; /* Le nombre de lignes souhaité */
+            line-height: 1.5; /* Hauteur de ligne pour une meilleure présentation */
          }
 
         form {
