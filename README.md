@@ -119,17 +119,20 @@
         }
 
         .image-description {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 100%;
-            text-align: center;
-            padding: 20px;
-            color: white;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-        }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    margin-bottom: 20px; /* Ajoutez une marge en bas */
+    z-index: 2; /* Assurez-vous que le texte est au-dessus des images */
+}
+
 
         .image-container:hover .image-description {
             opacity: 1;
