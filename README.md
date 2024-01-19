@@ -58,7 +58,7 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-            max-height: 600px; /* Augmentez cette valeur selon vos besoins */
+            max-height: 4cm; /* Augmentez cette valeur selon vos besoins */
         }
 
         .gallery img {
