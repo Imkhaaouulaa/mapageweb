@@ -6,6 +6,9 @@
     <title>Portfolio de Photographie
     </title>
     <style>
+    header h1 {
+        display: none; /* Masque le texte du titre */
+    }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -22,27 +25,17 @@
  html, body {
         height: 100%;
     }
-            /*header {
-            /*background-image: url('green.jpeg'); /* Assurez-vous que le chemin vers l'image est correct */
-           /* background: radial-gradient(circle, #BBFF33, #334d1b);
-            background-size: cover;
-            height: 100px;
-            text-align: center;
-            text-size-adjust: 20;
-            color: #0e0707;
-            padding: 1em;
-        }
-        }*/
+           
 }
- header {
-        background: linear-gradient(to right, #e4b67b, #c2ee6b, #daeeb3, #f3c3e3, #daeeb3, #c2ee6b, #e4b67b);
-        height: 120px;
-        text-align: center;
-        font-size: 22px;
-        color: #3f2b0c;
-        padding: 19px;
-        animation: gradientAnimation 5s infinite;
-    }
+header {
+    background: linear-gradient(to right, #e4b67b, #c2ee6b, #daeeb3, #f3c3e3, #daeeb3, #c2ee6b, #e4b67b);
+    height: 120px;
+    text-align: center;
+    font-size: 22px;
+    color: #3f2b0c;
+    padding: 19px;
+    animation: gradientAnimation 5s infinite;
+}
 
 @keyframes gradientAnimation {
     0% {
