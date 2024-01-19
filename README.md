@@ -68,6 +68,12 @@ header {
             /* Ajustez cette valeur selon vos besoins */
             padding: 16px;
             scroll-snap-points-x: repeat(100%);
+              max-height: 600px; /* ou la valeur que vous préférez */
+    width: auto;
+    height: auto;
+    scroll-snap-align: start;
+    margin-right: 1cm;
+    transition: transform 0.3s ease-in-out;
         }
 
         .image-container {
@@ -79,13 +85,8 @@ header {
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         }
 
-       .gallery img {
-    max-height: 600px; /* Augmentez la hauteur maximale */
-    width: 100%; /* Utilisez la largeur complète du conteneur parent */
-    scroll-snap-align: start;
-    margin-right: 1cm;
-    transition: transform 0.3s ease-in-out;
-}
+      
+
 
 
         .gallery img:hover {
