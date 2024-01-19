@@ -13,7 +13,9 @@
             box-sizing: border-box;
             background-color: #f4f4f4;
         }
-
+ html, body {
+        height: 100%;
+    }
             /*header {
             /*background-image: url('green.jpeg'); /* Assurez-vous que le chemin vers l'image est correct */
            /* background: radial-gradient(circle, #BBFF33, #334d1b);
@@ -25,16 +27,16 @@
             padding: 1em;
         }
         }*/
-        header {
-    background: linear-gradient(to right, #e4b67b,  #c2ee6b,#daeeb3,#f3c3e3 ,  #daeeb3,#c2ee6b,  #e4b67b);
-    height: 300px;
-    text-align: center;
-    height: 120px;
-    font-size: 22px;
-    color: #3f2b0c;
-    padding: 19px;
-    animation: gradientAnimation 5s infinite; /* Ajoutez une animation de 5 secondes en boucle */
 }
+ header {
+        background: linear-gradient(to right, #e4b67b, #c2ee6b, #daeeb3, #f3c3e3, #daeeb3, #c2ee6b, #e4b67b);
+        height: 120px;
+        text-align: center;
+        font-size: 22px;
+        color: #3f2b0c;
+        padding: 19px;
+        animation: gradientAnimation 5s infinite;
+    }
 
 @keyframes gradientAnimation {
     0% {
