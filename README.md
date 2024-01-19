@@ -12,14 +12,7 @@
             box-sizing: border-box;
             background-color: #f4f4f4;
         }
-        .image-container {
-        position: relative;
-        overflow: hidden;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        max-height: 4cm; /* Augmentez cette valeur selon vos besoins */
-    }
+    
 .professional-intro {
     margin-bottom: 20px; /* Ajoutez une marge en bas pour séparer du .gallery-container */
 }
@@ -72,7 +65,9 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-            max-height: 4cm; /* Augmentez cette valeur selon vos besoins */
+            /*max-height: 100  Augmentez cette valeur selon vos besoins */
+            width: 600px;
+    height: 400px; 
         }
 
         .gallery img {
@@ -201,14 +196,7 @@
             font-size: 20px;
             margin-right: 8px;
         }
-        .image-container {
-        position: relative;
-        overflow: hidden;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        max-height: 4cm; /* Augmentez cette valeur selon vos besoins */
-    }
+      
     </style>
 </head>
 <body>
