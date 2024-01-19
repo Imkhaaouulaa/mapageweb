@@ -207,61 +207,59 @@
 
     </header>
     <!-- Conteneur pour la barre de défilement et la galerie -->
-    <div class="scrollbar-container">
+     <div class="scrollbar-container">
         <div class="gallery-container">
             <div class="gallery">
-                <!-- Ajoutez vos images ici -->
                 <div class="image-container" style="z-index: 0;">
-                    <img src="C:\Users\HP\OneDrive\Desktop\html css js\Portfolio de Photographie_files\dd.jpg" alt="Image 1">
+                    <img src="dd.jpg" alt="Image 1">
                     <div class="image-overlay"></div>
-                    <div class="image-description"> Sous le Toit d'une Canopée Florissante</div>
+                    <div class="image-description">Sous le Toit d'une Canopée Florissante</div>
                 </div>
                 <div class="image-container">
-                    <img src="C:\Users\HP\OneDrive\Desktop\html css js\Portfolio de Photographie_files\cc.jpg" alt="Image 1">
+                    <img src="cc.jpg" alt="Image 2">
                     <div class="image-overlay"></div>
-                    <div class="image-description"> La fontaine, dépourvue d'eau, repose telle une sculpture d'éclat minéral dans le jardin</div>
+                    <div class="image-description">La fontaine, dépourvue d'eau, repose telle une sculpture d'éclat minéral dans le jardin</div>
                 </div>
                 <div class="image-container">
-                    <img src="C:\Users\HP\OneDrive\Desktop\html css js\Portfolio de Photographie_files\IMG-20231221-WA0011.jpg" alt="Image 2">
+                    <img src="IMG-20231221-WA0011.jpg" alt="Image 3">
                     <div class="image-overlay"></div>
                     <div class="image-description">Ballet des Flamants.</div>
                 </div>
                 <div class="image-container">
-                    <img src="C:\Users\HP\OneDrive\Desktop\html css js\Portfolio de Photographie_files\IMG-20231221-WA0013.jpg" alt="Image 3">
+                    <img src="IMG-20231221-WA0013.jpg" alt="Image 4">
                     <div class="image-overlay"></div>
                     <div class="image-description">Maison Douillette.</div>
                 </div>
                 <div class="image-container">
-                    <img src="C:\Users\HP\OneDrive\Desktop\html css js\Portfolio de Photographie_files\IMG-20231221-WA0014.jpg" alt="Image 4">
+                    <img src="IMG-20231221-WA0014.jpg" alt="Image 5">
                     <div class="image-overlay"></div>
-                    <div class="image-description"> À la rencontre du monde fascinant des singes.</div>
+                    <div class="image-description">À la rencontre du monde fascinant des singes.</div>
                 </div>
                 <div class="image-container">
-                    <img src="C:\Users\HP\OneDrive\Desktop\html css js\Portfolio de Photographie_files\IMG-20231221-WA0015.jpg" alt="Image 5">
+                    <img src="IMG-20231221-WA0015.jpg" alt="Image 6">
                     <div class="image-overlay"></div>
                     <div class="image-description">L'Élégance Imposante des Éléphants.</div>
                 </div>
                 <div class="image-container">
-                    <img src="C:\Users\HP\OneDrive\Desktop\html css js\Portfolio de Photographie_files\IMG-20231221-WA0016.jpg" alt="Image 6">
+                    <img src="IMG-20231221-WA0016.jpg" alt="Image 7">
                     <div class="image-overlay"></div>
                     <div class="image-description">Les Oiseaux en Harmonie dans le Ciel.</div>
                 </div>
                 <div class="image-container">
-                    <img src="C:\Users\HP\OneDrive\Desktop\html css js\Portfolio de Photographie_files\IMG-20231221-WA0017.jpg" alt="Image 7">
+                    <img src="IMG-20231221-WA0017.jpg" alt="Image 8">
                     <div class="image-overlay"></div>
                     <div class="image-description">La Beauté Intemporelle d'un Oiseau.</div>
                 </div>
                 <div class="image-container">
-                    <img src="C:\Users\HP\OneDrive\Desktop\html css js\Portfolio de Photographie_files\aa.jpg" alt="Image 8">
+                    <img src="aa.jpg" alt="Image 9">
                     <div class="image-overlay"></div>
-                    <div class="image-description"> Élégance et Couleurs Vibrantes.</div>
+                    <div class="image-description">Élégance et Couleurs Vibrantes.</div>
                 </div>
                 <div class="image-container">
-                    <img src="C:\Users\HP\OneDrive\Desktop\html css js\Portfolio de Photographie_files\bb.jpg" alt="Image 9">
+                    <img src="bb.jpg" alt="Image 10">
                     <div class="image-overlay"></div>
-                    <div class="image-description"> Les Arbres, Gardiens du Temps.</div>
+                    <div class="image-description">Les Arbres, Gardiens du Temps.</div>
                 </div>
-                <!-- Ajoutez d'autres images ici avec leurs liens respectifs -->
             </div>
         </div>
     </div>
