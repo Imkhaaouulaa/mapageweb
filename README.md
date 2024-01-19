@@ -145,6 +145,13 @@
             margin-bottom: 2em;
             border-radius: 3px;
         }
+        .paragraph {
+         overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2; /* Le nombre de lignes souhaité */
+            line-height: 1.5; /* Hauteur de ligne pour une meilleure présentation */
+         }
 
         form {
             display: flex;
@@ -185,7 +192,7 @@
 <body>
     <header>
         <h1>Mon Portfolio de Photographie</h1>
-        <p>Explorez l'essence de moments capturés, saisis à travers le regard unique de mon objectif photographique.</p>
+        <p div class="paragraph">Explorez l'essence de moments capturés, saisis à travers le regard unique de mon objectif photographique.</p>
     </header>
 
       <!-- Conteneur pour la barre de défilement et la galerie -->
