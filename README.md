@@ -25,7 +25,7 @@
     }
            
 }
-header {
+/*header {
     background: linear-gradient(to right, #e4b67b, #c2ee6b, #daeeb3, #f3c3e3, #daeeb3, #c2ee6b, #e4b67b);
     height: 120px;
     text-align: center;
@@ -43,7 +43,7 @@ header {
         background-position: 100% 50%;
     }
 }
-
+*/
 
         .scrollbar-container {
             overflow-x: hidden;
