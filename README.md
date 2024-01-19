@@ -327,23 +327,19 @@
       
 
 
-        <form>
-            <label for="first-name">Prénom: <input type="text" id="first-name" name="first-name" required=""></label>
-        
-            <label for="last-name">Nom: <input type="text" id="last-name" name="last-name" required=""></label>
-        
-            <label for="email">Email: <input type="email" id="email" name="email" required=""></label>
-        
-            <label for="gender">Genre:
-                <input type="radio" id="female" name="gender" value="female">
-                Femme
-                <input type="radio" id="male" name="gender" value="male">
-                Homme
-            </label>
-        
-            <input type="submit" value="Participer au concours">
-        </form>
-        
+       <form>
+    <label for="first-name">Prénom: <input type="text" id="first-name" name="first-name" required=""></label>
+    <label for="last-name">Nom: <input type="text" id="last-name" name="last-name" required=""></label>
+    <label for="email">Email: <input type="email" id="email" name="email" required=""></label>
+    <label for="gender">Genre:
+        <input type="radio" id="female" name="gender" value="female">
+        Femme
+        <input type="radio" id="male" name="gender" value="male">
+        Homme
+    </label>
+    <input type="submit" value="Participer au concours">
+</form>
+
 
     </div>
 
