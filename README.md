@@ -16,9 +16,7 @@
        
     /* ... (votre style existant) */
 
-    header h1 a {
-        display: none; /* Masque le texte du lien dans le titre */
-    }
+
 
 
  html, body {
