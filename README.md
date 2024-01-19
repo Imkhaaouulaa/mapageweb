@@ -77,6 +77,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             /* Ajout d'une ombre douce */
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+             max-height: 400px;
         }
 
         .gallery img {
