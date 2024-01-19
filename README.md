@@ -213,12 +213,12 @@
             <div class="gallery">
                 <!-- Ajoutez vos images ici -->
                 <div class="image-container" style="z-index: 0;">
-                    <img src="C:dd.jpg" alt="Image 1">
+                    <img src="dd.jpg" alt="Image 1">
                     <div class="image-overlay"></div>
                     <div class="image-description"> Sous le Toit d'une Canopée Florissante</div>
                 </div>
                 <div class="image-container">
-                    <img src="C:\Users\HP\OneDrive\Desktop\html css js\Portfolio de Photographie_files\cc.jpg" alt="Image 1">
+                    <img src="cc.jpg" alt="Image 1">
                     <div class="image-overlay"></div>
                     <div class="image-description"> La fontaine, dépourvue d'eau, repose telle une sculpture d'éclat minéral dans le jardin</div>
                 </div>
