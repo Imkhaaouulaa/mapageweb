@@ -59,24 +59,23 @@
             scroll-snap-points-x: repeat(100%);
         }
 
-        .image-container {
-            position: relative;
-            overflow: hidden;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            /*transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;*/
-            max-height: 100  /*Augmentez cette valeur selon vos besoins */
-         
-        }
+       .image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /*transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;*/
+    max-height: 100px; /* Ajoutez l'unité (par exemple, px) selon vos besoins */
+}
 
-        .gallery img {
-            max-height: 600px; /* Ajustez cette valeur selon vos besoins */
-            width: auto;
-            height: auto;
-            scroll-snap-align: start;
-            margin-right: 1cm;
-            transition: transform 0.3s ease-in-out;
-        }
+.gallery img {
+    max-height: 400px; /* Ajustez cette valeur selon vos besoins */
+    width: auto;
+    height: auto;
+    scroll-snap-align: start;
+    margin-right: 1cm;
+    transition: transform 0.3s ease-in-out;
+}
 
         .gallery img:hover {
             transform: scale(1.2);
