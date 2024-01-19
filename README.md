@@ -213,7 +213,7 @@
             <div class="gallery">
                 <!-- Ajoutez vos images ici -->
                 <div class="image-container" style="z-index: 0;">
-                    <img src="C:\Users\HP\OneDrive\Desktop\html css js\Portfolio de Photographie_files\dd.jpg" alt="Image 1">
+                    <img src="C:dd.jpg" alt="Image 1">
                     <div class="image-overlay"></div>
                     <div class="image-description"> Sous le Toit d'une Canopée Florissante</div>
                 </div>
