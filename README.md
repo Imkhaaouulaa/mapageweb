@@ -12,7 +12,13 @@
             box-sizing: border-box;
             background-color: #f4f4f4;
         }
+.professional-intro {
+    margin-bottom: 20px; /* Ajoutez une marge en bas pour séparer du .gallery-container */
+}
 
+.gallery-container {
+    margin-top: 20px; /* Ajoutez une marge en haut pour séparer de .professional-intro */
+}
         header {
             background: linear-gradient(to right, #e4b67b, #c2ee6b, #daeeb3, #f3c3e3, #daeeb3, #c2ee6b, #e4b67b);
             height: 120px;
