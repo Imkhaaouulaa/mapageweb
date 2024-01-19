@@ -80,14 +80,14 @@
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         }
 
-        .gallery img {
-            max-height: 400px;
-            width: auto;
-            height: auto;
-            scroll-snap-align: start;
-            margin-right: 1cm;
-            transition: transform 0.3s ease-in-out;
-        }
+       .gallery img {
+    max-height: 600px; /* Augmentez la hauteur maximale */
+    width: 100%; /* Utilisez la largeur complète du conteneur parent */
+    scroll-snap-align: start;
+    margin-right: 1cm;
+    transition: transform 0.3s ease-in-out;
+}
+
 
         .gallery img:hover {
             transform: scale(1.2); /* Effet de zoom au survol */
