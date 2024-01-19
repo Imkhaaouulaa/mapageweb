@@ -6,9 +6,7 @@
     <title>Portfolio de Photographie
     </title>
     <style>
-    header h1 {
-        display: none; /* Masque le texte du titre */
-    }
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
