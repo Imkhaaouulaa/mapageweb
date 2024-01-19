@@ -228,7 +228,7 @@
                     <div class="image-description">Ballet des Flamants.</div>
                 </div>
                 <div class="image-container">
-                    <img src="C:IMG-20231221-WA0013.jpg" alt="Image 3">
+                    <img src="IMG-20231221-WA0013.jpg" alt="Image 3">
                     <div class="image-overlay"></div>
                     <div class="image-description">Maison Douillette.</div>
                 </div>
