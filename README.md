@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Photographie</title>
     <style>
-        /* Réinitialisation des styles pour la marge et le padding du body */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -15,7 +14,6 @@
             background-color: #f4f4f4;
         }
 
-        /* Styles pour l'en-tête */
         header {
             background: #2b220b;
             color: white;
@@ -33,9 +31,8 @@
             margin: 10px 0 0;
         }
 
-        /* Styles pour la galerie d'images */
         .scrollbar-container {
-            overflow-x: hidden;
+            overflow-x: auto; /* Modifier overflow-x en auto pour permettre le défilement horizontal */
         }
 
         .gallery-container {
@@ -54,7 +51,6 @@
             scroll-snap-points-x: repeat(100%);
             max-height: 600px;
             width: auto;
-            height: auto;
             scroll-snap-align: start;
             margin-right: 1cm;
             transition: transform 0.3s ease-in-out;
@@ -66,6 +62,11 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .gallery img {
+            width: 100%; /* Modifier la largeur à 100% pour qu'elle occupe la largeur du conteneur parent */
+            height: auto; /* Permettre à la hauteur de s'ajuster automatiquement en fonction de la largeur */
         }
 
         .gallery img:hover {
@@ -113,7 +114,6 @@
             transition-delay: 0.2s;
         }
 
-        /* Styles pour le pied de page */
         footer {
             background: #2b220b;
             color: white;
@@ -129,7 +129,6 @@
             font-size: 18px;
         }
 
-        /* Styles pour la section d'introduction professionnelle */
         .professional-intro {
             font-size: 22px;
             color: #000000;
@@ -140,7 +139,6 @@
             border-radius: 3px;
         }
 
-        /* Styles pour le formulaire de concours */
         .contest {
             text-align: center;
             padding: 20px;
@@ -183,7 +181,6 @@
             width: 150px;
         }
 
-        /* Styles pour le compte à rebours */
         .countdown {
             text-align: center;
             margin-top: 30px;
@@ -213,87 +210,95 @@
 </head>
 
 <body>
-    <!-- En-tête de la page -->
     <header>
         <h1>Mon Portfolio de Photographie</h1>
         <p>Explorez l'essence de moments capturés, saisis à travers le regard unique de mon objectif photographique.</p>
     </header>
 
-    <!-- Conteneur pour la barre de défilement et la galerie -->
     <div class="scrollbar-container">
         <div class="gallery-container">
             <div class="gallery">
-                <!-- Ajoutez vos images ici -->
                 <div class="image-container" style="z-index: 0;">
                     <img src="dd.jpg" alt="Image 1">
                     <div class="image-overlay"></div>
                     <div class="image-description">Sous le Toit d'une Canopée Florissante</div>
                 </div>
-                <!-- Ajoutez d'autres images ici avec leurs liens respectifs -->
+                <div class="image-container">
+                    <img src="cc.jpg" alt="Image 2">
+                    <div class="image-overlay"></div>
+                    <div class="image-description">La fontaine, dépourvue d'eau, repose telle une sculpture d'éclat minéral dans le jardin</div>
+                </div>
+                <div class="image-container">
+                    <img src="IMG-20231221-WA0011.jpg" alt="Image 3">
+                    <div class="image-overlay"></div>
+                    <div class="image-description">Ballet des Flamants.</div>
+                </div>
+                <div class="image-container">
+                    <img src="IMG-20231221-WA0013.jpg" alt="Image 4">
+                    <div class="image-overlay"></div>
+                    <div class="image-description">Maison Douillette.</div>
+                </div>
+                <div class="image-container">
+                    <img src="IMG-20231221-WA0014.jpg" alt="Image 5">
+                    <div class="image-overlay"></div>
+                    <div class="image-description">À la rencontre du monde fascinant des singes.</div>
+                </div>
+                <div class="image-container">
+                    <img src="IMG-20231221-WA0015.jpg" alt="Image 6">
+                    <div class="image-overlay"></div>
+                    <div class="image-description">L'Élégance Imposante des Éléphants.</div>
+                </div>
+                <div class="image-container">
+                    <img src="IMG-20231221-WA0016.jpg" alt="Image 7">
+                    <div class="image-overlay"></div>
+                    <div class="image-description">Les Oiseaux en Harmonie dans le Ciel.</div>
+                </div>
+                <div class="image-container">
+                    <img src="IMG-20231221-WA0017.jpg" alt="Image 8">
+                    <div class="image-overlay"></div>
+                    <div class="image-description">La Beauté Intemporelle d'un Oiseau.</div>
+                </div>
+                <div class="image-container">
+                    <img src="aa.jpg" alt="Image 9">
+                    <div class="image-overlay"></div>
+                    <div class="image-description">Élégance et Couleurs Vibrantes.</div>
+                </div>
+                <div class="image-container">
+                    <img src="bb.jpg" alt="Image 10">
+                    <div class="image-overlay"></div>
+                    <div class="image-description">Les Arbres, Gardiens du Temps.</div>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- Pied de page -->
     <footer>
         <p>© 2023 Mon Portfolio de Photographie</p>
     </footer>
 
-    <!-- Nouvelle section pour l'introduction professionnelle -->
     <div class="professional-intro">
-        <p>
-            En tant que photographe passionné, j'ai développé une affinité particulière pour capturer la beauté éphémère de la nature.
+        <p>En tant que photographe passionné, j'ai développé une affinité particulière pour capturer la beauté éphémère de la nature.
             Mon objectif est de figer ces moments uniques et de les partager avec le monde, capturant l'essence même de la vie à travers mon objectif.
-            Explorez mon portfolio et plongez dans un monde où chaque image raconte une histoire. C'est par amour pour ce domaine que je participe à ce concours.
-        </p>
+            Explorez mon portfolio et plongez dans un monde où chaque image raconte une histoire. C'est par amour pour ce domaine que je participe à ce concours.</p>
     </div>
 
-    <!-- Script JavaScript -->
-    <script>
-        const gallery = document.querySelector('.gallery');
-
-        gallery.addEventListener('mouseover', function (event) {
-            const target = event.target.closest('.image-container');
-            if (target) {
-                target.style.zIndex = '1';
-            }
-        });
-
-        gallery.addEventListener('mouseout', function (event) {
-            const target = event.target.closest('.image-container');
-            if (target) {
-                target.style.zIndex = '0';
-            }
-        });
-    </script>
-
-    <!-- Concours -->
     <div class="contest">
         <h2>Participez à notre concours et gagnez un shooting gratuit !</h2>
         <p>Remplissez le formulaire ci-dessous pour participer :</p>
-
         <form>
             <label for="first-name">Prénom: <input type="text" id="first-name" name="first-name" required=""></label>
-
             <label for="last-name">Nom: <input type="text" id="last-name" name="last-name" required=""></label>
-
             <label for="email">Email: <input type="email" id="email" name="email" required=""></label>
-
             <label for="gender">Genre:
-                <input type="radio" id="female" name="gender" value="female">
-                Femme
-                <input type="radio" id="male" name="gender" value="male">
-                Homme
+                <input type="radio" id="female" name="gender" value="female"> Femme
+                <input type="radio" id="male" name="gender" value="male"> Homme
             </label>
-
             <input type="submit" value="Participer au concours">
         </form>
     </div>
 
-    <!-- Compte à rebours -->
     <div class="countdown" id="countdown">Temps restant : 2 jours, 23 heures, 59 minutes, 37 secondes</div>
 
-    <!-- Ajoutez ces styles à la section <style> de votre document -->
     <style>
         .countdown {
             text-align: center;
@@ -322,7 +327,24 @@
         }
     </style>
 
-    <!-- Script JavaScript -->
+    <script>
+        const gallery = document.querySelector('.gallery');
+
+        gallery.addEventListener('mouseover', function (event) {
+            const target = event.target.closest('.image-container');
+            if (target) {
+                target.style.zIndex = '1';
+            }
+        });
+
+        gallery.addEventListener('mouseout', function (event) {
+            const target = event.target.closest('.image-container');
+            if (target) {
+                target.style.zIndex = '0';
+            }
+        });
+    </script>
+
     <script>
         const endDate = new Date();
         endDate.setDate(endDate.getDate() + 3);
@@ -345,7 +367,6 @@
 
         setInterval(updateCountdown, 1000);
     </script>
-
 </body>
 
 </html>
