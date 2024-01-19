@@ -188,18 +188,119 @@
         <p>Explorez l'essence de moments capturés, saisis à travers le regard unique de mon objectif photographique.</p>
     </header>
 
-    <div class="scrollbar-container">
-        <div class="gallery-container">
-            <div class="gallery">
-                <div class="image-container">
-                    <img src="chemin/vers/dd.jpg" alt="Image 1">
-                    <div class="image-overlay"></div>
-                    <div class="image-description">Sous le Toit d'une Canopée Florissante</div>
-                </div>
-                <!-- Ajoutez d'autres images avec les balises similaires -->
-            </div>
+      <!-- Conteneur pour la barre de défilement et la galerie -->
+
+   <div class="scrollbar-container">
+
+    <div class="gallery-container">
+
+      <div class="gallery">
+
+        <div class="image-container" style="z-index: 0;">
+
+          <img src="dd.jpg" alt="Image 1">
+
+          <div class="image-overlay"></div>
+
+          <div class="image-description">Sous le Toit d'une Canopée Florissante</div>
+
         </div>
+
+        <div class="image-container">
+
+          <img src="cc.jpg" alt="Image 2">
+
+          <div class="image-overlay"></div>
+
+          <div class="image-description">La fontaine, dépourvue d'eau, repose telle une sculpture d'éclat minéral dans le jardin</div>
+
+        </div>
+
+        <div class="image-container">
+
+          <img src="IMG-20231221-WA0011.jpg" alt="Image 3">
+
+          <div class="image-overlay"></div>
+
+          <div class="image-description">Ballet des Flamants.</div>
+
+        </div>
+
+        <div class="image-container">
+
+          <img src="IMG-20231221-WA0013.jpg" alt="Image 4">
+
+          <div class="image-overlay"></div>
+
+          <div class="image-description">Maison Douillette.</div>
+
+        </div>
+
+        <div class="image-container">
+
+          <img src="IMG-20231221-WA0014.jpg" alt="Image 5">
+
+          <div class="image-overlay"></div>
+
+          <div class="image-description">À la rencontre du monde fascinant des singes.</div>
+
+        </div>
+
+        <div class="image-container">
+
+          <img src="IMG-20231221-WA0015.jpg" alt="Image 6">
+
+          <div class="image-overlay"></div>
+
+          <div class="image-description">L'Élégance Imposante des Éléphants.</div>
+
+        </div>
+
+        <div class="image-container">
+
+          <img src="IMG-20231221-WA0016.jpg" alt="Image 7">
+
+          <div class="image-overlay"></div>
+
+          <div class="image-description">Les Oiseaux en Harmonie dans le Ciel.</div>
+
+        </div>
+
+        <div class="image-container">
+
+          <img src="IMG-20231221-WA0017.jpg" alt="Image 8">
+
+          <div class="image-overlay"></div>
+
+          <div class="image-description">La Beauté Intemporelle d'un Oiseau.</div>
+
+        </div>
+
+        <div class="image-container">
+
+          <img src="aa.jpg" alt="Image 9">
+
+          <div class="image-overlay"></div>
+
+          <div class="image-description">Élégance et Couleurs Vibrantes.</div>
+
+        </div>
+
+        <div class="image-container">
+
+          <img src="bb.jpg" alt="Image 10">
+
+          <div class="image-overlay"></div>
+
+          <div class="image-description">Les Arbres, Gardiens du Temps.</div>
+
+        </div>
+
+      </div>
+
     </div>
+
+  </div>
 
     <footer>
         <p>© 2023 Mon Portfolio de Photographie</p>
