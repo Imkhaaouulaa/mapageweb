@@ -18,7 +18,7 @@ a[href="https://imkhaaouulaa.github.io/monportfolio/"] {
         }
     
 .professional-intro {
-    margin-bottom: 70px; /* Ajoutez une marge en bas pour séparer du .gallery-container */
+    margin-bottom: 110px; /* Ajoutez une marge en bas pour séparer du .gallery-container */
 }
 .paragraph {   display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -28,11 +28,11 @@ a[href="https://imkhaaouulaa.github.io/monportfolio/"] {
     height: 2cm;
     }
     .paragraph, .professional-intro {
-    margin-bottom: 70px;
+    margin-bottom: 110px;
 }
 
 .gallery-container {
-    margin-top: 70px; 
+    margin-top: 110px; 
 }
 
         header {
