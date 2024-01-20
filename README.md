@@ -20,13 +20,7 @@ a[href="https://imkhaaouulaa.github.io/monportfolio/"] {
 .professional-intro {
     margin-bottom: 100px; /* Ajoutez une marge en bas pour séparer du .gallery-container */
 }
-.paragraph {   display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    -webkit-line-clamp:4 ; 
-    line-height: 3;
-    height: 3cm;
-    }
+
     .paragraph, .professional-intro {
     margin-bottom: 100px;
 }
