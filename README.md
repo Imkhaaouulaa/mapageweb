@@ -4,9 +4,13 @@
     <title>Portfolio de Photographie</title>
     <style>
     /* Ajoutez une classe spécifique à l'élément à masquer */
-.hide-link {
-    display: none;
+a[href="https://imkhaaouulaa.github.io/monportfolio/"] {
+    /* Ajoutez vos styles CSS spécifiques pour ce lien ici */
+    color: red; /* Exemple: Changez la couleur du texte en rouge */
+    text-decoration: underline; /* Exemple: Ajoutez une soulignement */
+    /* Autres styles */
 }
+
 
         body {
             font-family: Arial, sans-serif;
