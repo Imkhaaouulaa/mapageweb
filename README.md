@@ -212,7 +212,7 @@
         <h1>Mon Portfolio de Photographie</h1>
         <p div class="paragraph">Explorez l'essence de moments capturés, saisis à travers le regard unique de mon objectif photographique.</p>
     </header>
-<a href="https://imkhaaouulaa.github.io/monportfolio/" class="hide-link">monportfolio</a>
+
       <!-- Conteneur pour la barre de défilement et la galerie -->
 
    <div class="scrollbar-container">
