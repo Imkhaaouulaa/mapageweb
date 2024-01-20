@@ -17,15 +17,10 @@
 .professional-intro {
     margin-bottom: 20px; /* Ajoutez une marge en bas pour séparer du .gallery-container */
 }
- .paragraph {
-         overflow: hidden;
-            display: -webkit-box;
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 2cm; /* Le nombre de lignes souhaité */
-            line-height: 1.5; /* Hauteur de ligne pour une meilleure présentation */
-         }
-.gallery-container {
-    margin-top: 20px; /* Ajoutez une marge en haut pour séparer de .professional-intro */
+.paragraph { overflow: hidden;
+display: -webkit-box; 
+-webkit-box-orient: vertical; -webkit-line-clamp: 2cm; line-height: 1.5; }
+.gallery-container { margin-top: 20px; 
 }
         header {
             background: linear-gradient(to right, #e4b67b, #c2ee6b, #daeeb3, #f3c3e3, #daeeb3, #c2ee6b, #e4b67b);
