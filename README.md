@@ -27,13 +27,13 @@ a[href="https://imkhaaouulaa.github.io/monportfolio/"] {
     line-height: 1.5;
     height: 3em;
     }
-    .professional-intro {
-        margin-bottom: 20px;
-    }
+    .paragraph, .professional-intro {
+    margin-bottom: 20px;
+}
 
-    .gallery-container {
-        margin-top: 1cm;
-    }
+.gallery-container {
+    margin-top: 20px; 
+}
 
         header {
             background: linear-gradient(to right, #e4b67b, #c2ee6b, #daeeb3, #f3c3e3, #daeeb3, #c2ee6b, #e4b67b);
