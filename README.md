@@ -3,6 +3,11 @@
  
     <title>Portfolio de Photographie</title>
     <style>
+    /* Ajoutez une classe spécifique à l'élément à masquer */
+.hide-link {
+    display: none;
+}
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -207,7 +212,7 @@
         <h1>Mon Portfolio de Photographie</h1>
         <p div class="paragraph">Explorez l'essence de moments capturés, saisis à travers le regard unique de mon objectif photographique.</p>
     </header>
-
+<a href="https://imkhaaouulaa.github.io/monportfolio/" class="hide-link">monportfolio</a>
       <!-- Conteneur pour la barre de défilement et la galerie -->
 
    <div class="scrollbar-container">
