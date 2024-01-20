@@ -5,10 +5,7 @@
     <style>
     /* Ajoutez une classe spécifique à l'élément à masquer */
 a[href="https://imkhaaouulaa.github.io/monportfolio/"] {
-    /* Ajoutez vos styles CSS spécifiques pour ce lien ici */
-    color: red; /* Exemple: Changez la couleur du texte en rouge */
-    text-decoration: underline; /* Exemple: Ajoutez une soulignement */
-    /* Autres styles */
+   display: none;
 }
 
 
