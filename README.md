@@ -15,13 +15,12 @@
 .professional-intro {
     margin-bottom: 20px; /* Ajoutez une marge en bas pour séparer du .gallery-container */
 }
-.paragraph {    width: 300px; 
-    height: 150px; 
-    overflow: hidden;
-    display: -webkit-box;
+.paragraph {   display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-line-clamp:3 ; 
     line-height: 1.5;
+    height: 3em;
     }
 
 .gallery-container { margin-top: 20px; 
