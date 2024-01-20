@@ -141,19 +141,10 @@ a[href="https://imkhaaouulaa.github.io/monportfolio/"] {
            display: none;
         }
 
-        footer {
-            background: #2b220b;
-            color: white;
-            text-align: center;
-            padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+        
 
         footer p {
-            margin: 0;
-            font-size: 18px;
+       display: none;    
         }
 
         .professional-intro {
