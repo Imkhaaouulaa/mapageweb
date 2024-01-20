@@ -23,9 +23,9 @@ a[href="https://imkhaaouulaa.github.io/monportfolio/"] {
 .paragraph {   display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    -webkit-line-clamp:3 ; 
-    line-height: 1.5;
-    height: 3em;
+    -webkit-line-clamp:4 ; 
+    line-height: 2;
+    height: 2cm;
     }
     .paragraph, .professional-intro {
     margin-bottom: 20px;
