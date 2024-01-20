@@ -17,6 +17,7 @@
 }
 .paragraph { overflow: hidden;
 display: -webkit-box; 
+height: 100px;
 -webkit-box-orient: vertical; -webkit-line-clamp: 2cm; line-height: 1.5; }
 .paragraph p {margin: 0;
     line-height: 2;
